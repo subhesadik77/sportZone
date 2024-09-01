@@ -1,0 +1,32 @@
+
+
+/* navigation part start */
+#navbar {
+
+    & .active {
+        color: rgb(23, 192, 122);
+    }
+}
+.nav-link {
+    font-size: 18px;
+    font-weight: bold;
+
+    &:hover {
+        color: rgb(23, 192, 122);
+    }
+}
+/* navigation part end */
+
+/* header part start */
+#header {
+    background: url(../images/banner.jpeg) no-repeat center;
+    background-size: cover;
+    height: 700px;
+}
+/* header part end */
+
+/* footer part start */
+#footer {
+    background-color: gray;
+    padding: 10px;
+/* footer part end */
