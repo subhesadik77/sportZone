@@ -1,7 +1,7 @@
 
 html {
     scroll-behavior: smooth;
-}
+  }
 
 /* navigation part start */
 #navbar {
@@ -28,6 +28,17 @@ html {
 }
 /* header part end */
 
+/* player section start */
+#player  .player_content {
+    border: 1px solid hsla(0, 0%, 0%, 0.212);
+    transition: .3s linear;
+
+    &:hover {
+        border-color: black;
+        cursor: pointer;
+    }
+}
+/* player section end */
 
 /* footer part start */
 #footer {
