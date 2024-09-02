@@ -1,4 +1,7 @@
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* navigation part start */
 #navbar {
@@ -25,8 +28,42 @@
 }
 /* header part end */
 
+
 /* footer part start */
 #footer {
     background-color: gray;
     padding: 10px;
+}
 /* footer part end */
+
+
+/* reach-us section start  */
+#reach-us {
+    & .contact-info {
+        border: 1px solid hsla(0, 0%, 0%, 0.226);
+        background-color: hsla(0, 0%, 0%, 0.39);
+        border-radius: 10px;
+    }
+
+    & .contact-info ul {
+        list-style: none;
+        text-align: center;
+
+        & li {
+            padding: 10px 0;
+        }
+
+        & a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 500;
+            transition: .3s linear;
+
+            &:hover {
+            color: hsla(0, 24%, 29%, 0.63);
+            }
+        }
+    }
+}
+/* reach-us section end  */
